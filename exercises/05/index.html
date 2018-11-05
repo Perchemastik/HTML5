@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		form{
+			/*font-family: "century gothic"*/
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<input list="browsers" name="browser" autofocus placeholder="Select your browser">
+		<datalist id="browsers">
+			<option value="Internet Explorer">
+			<option value="Firefox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+		<input type="submit">
+
+		<input type="number" name="oneToTen" min="0" max="100" step="10">
+		<input type="text" name="email" maxlength="40">
+		<input type="file" name="uploadFiles" multiple>
+		<input type=""email" placeholder="enter your email">
+		<input type="status" value="static value" readonly>
+
+		<br>
+		<br>
+		<label for="id_first_name">First Name</label>
+		<input id="id_first_name" type="text" name="First Name">
+		<label for="id_last_name">Last Name</label>
+		<input id="id_last_name" type="text" name="Last Name">
+
+		<br>
+		<br>
+
+		<input id="id_html5" type="checkbox" name="html5" checked><label for="id_html5">HTML5</label>
+		<input id="id_css3" type="checkbox" name="css3" checked> <label for="id_css3">CSS3</label>
+		<input id="id_javascript" type="checkbox" name="Javascript"><label for="id_javascript">Javascript</label>
+		<input id="id_bootstrap" type="checkbox" name="Bootstrap"><label for="id_bootstrap">Bootstrap</label>
+		
+		<br>
+		<br>
+
+		<input id="id_html5_r" type="radio" name="browser"><label for="id_html5_r">HTML5</label>
+		<input id="id_css3_r" type="radio" name="browser"> <label for="id_css3_r">CSS3</label>
+		<input id="id_javascript_r" type="radio" name="browser"><label for="id_javascript_r">Javascript</label>
+		<input id="id_bootstrap_r" type="radio" name="browser"><label for="id_bootstrap_r">Bootstrap</label>
+	</form>
+	
+</body>
+</html>
