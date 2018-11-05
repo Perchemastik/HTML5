@@ -2,15 +2,42 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 	<style>
+		fieldset{
+			width: 50%;
+		}
 		form{
 			/*font-family: "century gothic"*/
+		}
+		figure{
+			text-align: center;
+		}
+		li{
+			list-style-type: none;
+			display: inline;
+		}
+		a{
+			text-decoration-style: none;
+			margin: 20px
 		}
 	</style>
 </head>
 <body>
-	<form action="">
+
+	<!-- Menu -->
+	<nav>
+		<ul>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Offers</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<form action="blank">
 		<input list="browsers" name="browser" autofocus placeholder="Select your browser">
 		<datalist id="browsers">
 			<option value="Internet Explorer">
@@ -22,10 +49,11 @@
 		<input type="submit">
 
 		<input type="number" name="oneToTen" min="0" max="100" step="10">
-		<input type="text" name="email" maxlength="40">
+		<input type="email" name="email" maxlength="40">
+		<!-- <input type="email" name="email" maxlength="40"> -->
 		<input type="file" name="uploadFiles" multiple>
-		<input type=""email" placeholder="enter your email">
-		<input type="status" value="static value" readonly>
+		<input type="email" placeholder="enter your email">
+		<!-- <input type="status" value="static value" readonly> -->
 
 		<br>
 		<br>
@@ -49,7 +77,63 @@
 		<input id="id_css3_r" type="radio" name="browser"> <label for="id_css3_r">CSS3</label>
 		<input id="id_javascript_r" type="radio" name="browser"><label for="id_javascript_r">Javascript</label>
 		<input id="id_bootstrap_r" type="radio" name="browser"><label for="id_bootstrap_r">Bootstrap</label>
+
+		<br><br>
+
+		<select name="dropdown">
+			<option value="option1" selected>option1</option>
+			<option value="option2">option2</option>
+			<option value="option3">option3</option>
+			<option value="option4">option4</option>
+		</select>
+
+		<a href="mailto:somewhere@itdcanada.ca?Subject=A%20Question">mailto</a>
+		<br>
+		<br>
+		<br>
+		<fieldset>
+			<legend>Welcome to 1993</legend>
+			<div>
+				<label for="name">Full Name</label>
+				<input type="text">
+			</div>
+			<div>
+				<label for="email">Electronic-Mail</label>
+				<input type="email">
+			</div>
+			<div>
+				<input type="submit">
+			</div>
+		</fieldset>
+
+	<br>
+	<br>
+	<br>
 	</form>
-	
+	<details>
+		<summary>HTML Article</summary>
+		<article>
+			<h2>How to code with HTML</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus tempora nostrum nobis ratione ipsum maiores vero explicabo. Quia doloribus laborum expedita natus, aliquam quibusdam possimus, temporibus quas nisi quis distinctio! Ut pariatur quos minus quidem cum velit tempore ad consequuntur a dignissimos, delectus quo accusantium consectetur iste sapiente molestias excepturi facere. Esse aliquid rerum mollitia architecto modi tenetur. Fugit, optio. Eos nobis accusamus officia temporibus architecto quaerat ipsa quae ex itaque magnam labore cum rem possimus reiciendis saepe, veritatis voluptates laborum pariatur et minus nulla esse aspernatur inventore. Cumque dolore sapiente iusto corporis tempore laudantium at illo aliquid consequuntur quidem.</p>
+		</article>
+	</details>
+	<details>
+		<summary>CSS Article</summary>
+		<article>
+			<h2>How to code with CSS</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus tempora nostrum nobis ratione ipsum maiores vero explicabo. Quia doloribus laborum expedita natus, aliquam quibusdam possimus, temporibus quas nisi quis distinctio! Ut pariatur quos minus quidem cum velit tempore ad consequuntur a dignissimos, delectus quo accusantium consectetur iste sapiente molestias excepturi facere. Esse aliquid rerum mollitia architecto modi tenetur. Fugit, optio. Eos nobis accusamus officia temporibus architecto quaerat ipsa quae ex itaque magnam labore cum rem possimus reiciendis saepe, veritatis voluptates laborum pariatur et minus nulla esse aspernatur inventore. Cumque dolore sapiente iusto corporis tempore laudantium at illo aliquid consequuntur quidem.</p>
+		</article>
+	</details>
+	<details>
+		<summary>JS Article</summary>
+		<article>
+			<h2>How to code with Javascropt</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus tempora nostrum nobis ratione ipsum maiores vero explicabo. Quia doloribus laborum expedita natus, aliquam quibusdam possimus, temporibus quas nisi quis distinctio! Ut pariatur quos minus quidem cum velit tempore ad consequuntur a dignissimos, delectus quo accusantium consectetur iste sapiente molestias excepturi facere. Esse aliquid rerum mollitia architecto modi tenetur. Fugit, optio. Eos nobis accusamus officia temporibus architecto quaerat ipsa quae ex itaque magnam labore cum rem possimus reiciendis saepe, veritatis voluptates laborum pariatur et minus nulla esse aspernatur inventore. Cumque dolore sapiente iusto corporis tempore laudantium at illo aliquid consequuntur quidem.</p>
+		</article>
+	</details>
+		<figure>
+			<img src="chicken.png" alt="">
+			<figcaption>want some chicken?</figcaption>
+		</figure>
 </body>
 </html>
