@@ -1,0 +1,27 @@
+p{
+	color: green;
+	font-family: "century gothic";
+}
+#id_folder{
+	color: orange;
+	font-family: "century gothic";
+}
+h1{
+	font-family: "century gothic";
+}
+h2{
+	font-family: "century gothic";
+}
+ul{
+	font-family: "century gothic";
+}
+figure{
+	font-family: "century gothic";
+}
+.picture{
+	color: red;
+}
+.location{
+	text-align: center;
+	width: 50%
+}
