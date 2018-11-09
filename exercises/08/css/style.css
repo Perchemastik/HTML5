@@ -2,6 +2,9 @@ p{
 	color: green;
 	font-family: "century gothic";
 }
+h2.text-danger{
+	color: red;
+}
 #id_folder{
 	color: orange;
 	font-family: "century gothic";
