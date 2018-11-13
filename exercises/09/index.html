@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Button with input tag</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1 class="demo">Student Name</h1>
+		<p class="demo"> student </p>
+		<button onclick="myFunction()">Try it</button>
+		<div class="container">	
+		<form action="go.php">
+			<fieldset>	
+				<p>	Fill out the form and click the button</p>
+				<label for="nameInput">Name</label>
+				<input id="nameInput" type="text">
+				<label for="lastNameInput">Last Name</label>
+				<input id="lastNameInput" type="text">
+				<label for="emailInput">Email</label>
+				<input id="emailInput" type="email">
+				<!-- <button class="btn btn-success" onclick="myfun(event)">Submit</button> -->
+				<input class="btn btn-success" type="Submit" onclick="myfun(event)" value="Submit">
+			</fieldset>
+		</form>
+		</div>
+		<div class="container">
+			<p id="inputSummary"></p>
+		</div>
+		<script src="./js/main.js">	</script>
+	</body>
+</html>
