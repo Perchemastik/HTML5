@@ -1,2 +1,5 @@
 javascript
-ES6, array, functions
+ES6, more array, functions
+define function with arrow
+bubble sort
+arguments
