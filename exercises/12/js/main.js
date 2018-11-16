@@ -32,3 +32,15 @@ buttonClickMe.addEventListener('click', customfun);
 function customfun(event){
 	console.log(event.clientX , event.clientY )
 }
+
+let myObject = {
+	variable1: "new variable",
+	thing: "didn't like the movie",
+	eat: function(food){
+		if(food=== "tacos"){
+			console.log('tacooooossss!, Om Nom Nom Nom!!!!')
+		} else{
+		console.log('I only eat tacos...')
+		}
+	}
+}
