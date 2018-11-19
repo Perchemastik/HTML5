@@ -1,0 +1,2 @@
+javascript
+setTimeout, setInterval, closure
